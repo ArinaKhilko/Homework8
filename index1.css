@@ -1,0 +1,55 @@
+.lessons-container ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  .lessons-container ul li {
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 5px;
+  }
+
+  /* Стилізація елементів списків для понеділка */
+  .lessons-container ul li:nth-of-type(1) {
+    background-color: #ffcccc;
+  }
+
+  .lessons-container ul li:nth-of-type(1):hover {
+    transform: scale(1.1);
+  }
+
+  /* Стилізація елементів списків для вівторка */
+  .lessons-container ul li:nth-of-type(2) {
+    background-color: #ccffcc;
+  }
+
+  .lessons-container ul li:nth-of-type(2):active {
+    font-weight: bold;
+  }
+
+  /* Стилізація елементів списків для середи */
+  .lessons-container ul li:nth-of-type(3) {
+    background-color: #ccccff;
+  }
+
+  .lessons-container ul li:nth-of-type(3)::before {
+    margin-right: 5px;
+  }
+
+  /* Стилізація елементів списків для четверга */
+  .lessons-container ul li:nth-of-type(4) {
+    background-color: #ffffcc;
+  }
+
+  .lessons-container ul li:nth-of-type(4):focus {
+    background-color: #ffcc99;
+  }
+
+  /* Стилізація елементів списків для п'ятниці */
+  .lessons-container ul li:nth-of-type(5) {
+    background-color: #ccffff;
+  }
+
+  .lessons-container ul li:nth-of-type(5):not(:last-child) {
+    border-bottom: 2px dashed #999;
+  }
